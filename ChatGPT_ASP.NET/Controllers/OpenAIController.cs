@@ -12,8 +12,8 @@ namespace ChatGPT_ASP.NET.Controllers
         [Route("UseChatGPT")]
         public async Task<IActionResult> UseChatGPT(string prompt)
         {
-            string apiKey = "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";
-            string answer = "";
+            string apiKey = "Key";
+            string answer = string.Empty;
 
             var openAI = new OpenAIAPI(apiKey);
 
